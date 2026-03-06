@@ -1,0 +1,212 @@
+body {
+  max-width: 100%;
+  min-width: 800px;
+  height: 100%;
+}
+header {
+  background-color: #111111;
+  height: 103px;
+}
+header img {
+  width: 200px;
+  margin-top: 18px;
+}
+.web_dev {
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.web_dev div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 40px;
+}
+button {
+  border: none;
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 2em;
+  padding: 20px 30px;
+}
+.web_dev h1 {
+  font-size: 3em;
+  color: #27a1c8;
+  font-weight: bold;
+  margin: 1em 0;
+}
+p {
+  padding: 0px 190px;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.5rem;
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+}
+
+.img_div {
+  display: inline-block;
+  max-width: 45%;
+  vertical-align: top;
+}
+
+.inl {
+  text-align: center;
+  display: inline-block;
+  max-width: 50%;
+  text-align: left;
+}
+
+.info img {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+.garanzia {
+  margin-bottom: 36px;
+  height: auto;
+  background-color: #de2d13;
+  color: white;
+  min-height: 327px;
+  margin-top: 40px;
+}
+
+.garanzia div {
+  text-align: center;
+  padding: 40px;
+}
+.garanzia h1 {
+  font-size: 2.5em;
+  margin-top: 50px;
+}
+.garanzia p {
+  padding: 0px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.1rem;
+}
+.garanzia h5 {
+  font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+}
+.percorso {
+  margin: 86px 0px;
+  width: 100%;
+  text-align: center;
+}
+.first_img {
+  display: inline-block;
+  max-width: 25%;
+  vertical-align: top;
+}
+.second_img {
+  display: inline-block;
+  max-width: 25%;
+  vertical-align: top;
+}
+.third_img {
+  display: inline-block;
+  max-width: 25%;
+  vertical-align: top;
+}
+
+.percorso div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 8px;
+}
+.percorso img {
+  min-width: 200px;
+  max-width: 90%;
+  object-fit: cover;
+}
+.first_img {
+}
+.second_img {
+}
+.third_img {
+}
+h4 {
+  color: #22a0cd;
+  font-size: 1.6em;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  padding: 0px 50px;
+  font-size: 2em;
+  color: #36add5;
+}
+
+p {
+  padding: 0px 50px;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.5rem;
+}
+footer {
+  background: #25a1c4;
+  background: radial-gradient(
+    circle,
+    rgba(37, 161, 196, 1) 45%,
+    rgba(37, 161, 196, 0.74) 100%
+  );
+  text-align: center;
+  max-width: 100%;
+  min-width: 200px;
+  padding: 20px;
+  color: white;
+}
+footer h2 {
+  font-size: 2em;
+  margin-top: 7px;
+}
+footer p {
+  color: white;
+
+  font-size: 1.2em;
+}
+hr {
+  width: 225px;
+  margin: 29px auto;
+}
+a {
+  color: white;
+}
